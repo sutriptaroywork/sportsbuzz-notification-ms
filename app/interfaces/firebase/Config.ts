@@ -1,0 +1,16 @@
+export default interface Config {
+  FRONTEND_HOST_URL: string;
+  FIREBASE_WEB_API_KEY: string;
+
+  IOS_APP_STORE_ID: string;
+  IOS_CUSTOM_SCHEME: string;
+  IOS_BUNDLE_ID: string;
+
+  DYNAMIC_LINK_ANDROID_PACKAGE_NAME: string;
+  DYNAMIC_LINK_DOMAIN_URI_PREFIX: string;
+
+  SHARE_SOCIAL_TITLE: string;
+  SHARE_SOCIAL_DESCRIPTION: string;
+  PRIVATE_CONTEST_SOCIAL_TITLE: string;
+  PRIVATE_CONTEST_SOCIAL_DESCRIPTION: string;
+}
